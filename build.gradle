@@ -27,19 +27,20 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
     compile group: 'org.springframework.boot', name: 'spring-boot-starter-logging', version: '2.1.8.RELEASE'
 
-    compile("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
-    compile("org.springframework.boot:spring-boot-starter-data-jpa")
-    compile("org.springframework.boot:spring-boot-starter-mustache")
-    compile("org.springframework.boot:spring-boot-starter-web")
-    compile("com.fasterxml.jackson.module:jackson-module-kotlin")
-    compile("org.jetbrains.kotlin:kotlin-reflect")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+    implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+    implementation("org.springframework.boot:spring-boot-starter-mustache")
+    implementation("org.springframework.boot:spring-boot-starter-web")
+    implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
+    implementation("org.jetbrains.kotlin:kotlin-reflect")
     runtimeOnly("com.h2database:h2:1.4.197") // Fixed version as a workaround for https://github.com/h2database/h2database/issues/1841
     runtimeOnly("org.springframework.boot:spring-boot-devtools")
 
-    compile 'org.junit.jupiter:junit-jupiter-api:5.5.1'
-    compile group: 'org.springframework.boot', name: 'spring-boot-test', version: '1.4.0.RELEASE'
-    compile("org.springframework.boot:spring-boot-starter-test")
-    compile group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.5.2'
+    implementation 'org.junit.jupiter:junit-jupiter-api:5.5.1'
+    
+    //testCompile group: 'org.springframework.boot', name: 'spring-boot-test', version: '1.4.0.RELEASE'
+    testCompile("org.springframework.boot:spring-boot-starter-test")
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.5.2'
 
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
 }
