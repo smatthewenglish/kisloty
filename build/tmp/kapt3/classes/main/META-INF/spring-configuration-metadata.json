@@ -1,0 +1,33 @@
+{
+  "groups": [
+    {
+      "name": "blog",
+      "type": "kisloty.BlogProperties",
+      "sourceType": "kisloty.BlogProperties"
+    },
+    {
+      "name": "blog.banner",
+      "type": "kisloty.BlogProperties$Banner",
+      "sourceType": "kisloty.BlogProperties",
+      "sourceMethod": "getBanner()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "blog.banner.content",
+      "type": "java.lang.String",
+      "sourceType": "kisloty.BlogProperties$Banner"
+    },
+    {
+      "name": "blog.banner.title",
+      "type": "java.lang.String",
+      "sourceType": "kisloty.BlogProperties$Banner"
+    },
+    {
+      "name": "blog.title",
+      "type": "java.lang.String",
+      "sourceType": "kisloty.BlogProperties"
+    }
+  ],
+  "hints": []
+}
