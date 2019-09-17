@@ -29,15 +29,6 @@ repositories {
     mavenCentral()
 }
 
-tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).all {
-    kotlinOptions {
-        jvmTarget = "1.8"
-    }
-}
-tasks.withType(Test) {
-    useJUnitPlatform()
-}
-
 dependencies {
 
     compile("org.springframework.boot:spring-boot-starter-web")
