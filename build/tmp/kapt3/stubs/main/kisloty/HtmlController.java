@@ -2,11 +2,10 @@ package kisloty;
 
 import java.lang.System;
 
-@kotlin.Metadata(mv = {1, 1, 15}, bv = {1, 0, 3}, k = 1, d1 = {"\u00004\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0010\u000e\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\b\u0007\u0018\u00002\u00020\u0001:\u0001\u0010B\u0015\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u0012\u0006\u0010\u0004\u001a\u00020\u0005\u00a2\u0006\u0002\u0010\u0006J\u001a\u0010\u0007\u001a\u00020\b2\b\b\u0001\u0010\t\u001a\u00020\b2\u0006\u0010\n\u001a\u00020\u000bH\u0007J\u0010\u0010\f\u001a\u00020\b2\u0006\u0010\n\u001a\u00020\u000bH\u0007J\n\u0010\r\u001a\u00020\u000e*\u00020\u000fR\u000e\u0010\u0004\u001a\u00020\u0005X\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u000e\u0010\u0002\u001a\u00020\u0003X\u0082\u0004\u00a2\u0006\u0002\n\u0000\u00a8\u0006\u0011"}, d2 = {"Lkisloty/HtmlController;", "", "repository", "Lkisloty/ArticleRepository;", "properties", "Lkisloty/BlogProperties;", "(Lkisloty/ArticleRepository;Lkisloty/BlogProperties;)V", "article", "", "slug", "model", "Lorg/springframework/ui/Model;", "blog", "render", "Lkisloty/HtmlController$RenderedArticle;", "Lkisloty/Article;", "RenderedArticle", "kisloty"})
+@kotlin.Metadata(mv = {1, 1, 15}, bv = {1, 0, 3}, k = 1, d1 = {"\u0000.\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0010\u000e\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\b\u0007\u0018\u00002\u00020\u0001:\u0001\u000eB\r\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\u0002\u0010\u0004J\u001a\u0010\u0005\u001a\u00020\u00062\b\b\u0001\u0010\u0007\u001a\u00020\u00062\u0006\u0010\b\u001a\u00020\tH\u0007J\u0010\u0010\n\u001a\u00020\u00062\u0006\u0010\b\u001a\u00020\tH\u0007J\n\u0010\u000b\u001a\u00020\f*\u00020\rR\u000e\u0010\u0002\u001a\u00020\u0003X\u0082\u0004\u00a2\u0006\u0002\n\u0000\u00a8\u0006\u000f"}, d2 = {"Lkisloty/HtmlController;", "", "repository", "Lkisloty/ArticleRepository;", "(Lkisloty/ArticleRepository;)V", "article", "", "slug", "model", "Lorg/springframework/ui/Model;", "blog", "render", "Lkisloty/HtmlController$RenderedArticle;", "Lkisloty/Article;", "RenderedArticle", "kisloty"})
 @org.springframework.stereotype.Controller()
 public final class HtmlController {
     private final kisloty.ArticleRepository repository = null;
-    private final kisloty.BlogProperties properties = null;
     
     @org.jetbrains.annotations.NotNull()
     @org.springframework.web.bind.annotation.GetMapping(value = {"/"})
@@ -31,8 +30,7 @@ public final class HtmlController {
     }
     
     public HtmlController(@org.jetbrains.annotations.NotNull()
-    kisloty.ArticleRepository repository, @org.jetbrains.annotations.NotNull()
-    kisloty.BlogProperties properties) {
+    kisloty.ArticleRepository repository) {
         super();
     }
     
