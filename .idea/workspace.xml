@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e264e618-ecf2-4579-83b9-8e837c8a70f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/kisloty/BlogApplicationTests.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/kisloty/IntegrationTests.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/kisloty/BlogApplicationTests.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/kisloty/BlogApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/kisloty/BlogApplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/kisloty/IntegrationTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/kisloty/IntegrationTests.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -77,10 +72,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/kisloty/BlogApplication.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="252">
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
               <folding>
-                <element signature="e#17#170#0" expanded="true" />
+                <element signature="e#17#209#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,10 +128,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/kotlin/kisloty/IntegrationTests.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="12" column="46" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="46" />
+            <state relative-caret-position="380">
+              <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
               <folding>
-                <element signature="e#17#237#0" expanded="true" />
+                <element signature="e#17#330#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -162,10 +157,10 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/header.mustache" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/footer.mustache" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/blog.mustache" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/kisloty/BlogApplication.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/kisloty/BlogApplicationTests.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/kisloty/BlogApplicationTests.kt" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/kisloty/BlogApplication.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/kisloty/IntegrationTests.kt" />
       </list>
     </option>
@@ -247,7 +242,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568744824684" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568745091559" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -261,7 +256,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IntegrationTests.Assert blog page title, content and status code">
+  <component name="RunManager" selected="JUnit.IntegrationTests">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -280,6 +275,22 @@
       <option name="MAIN_CLASS_NAME" value="kisloty.BlogApplicationTests" />
       <option name="METHOD_NAME" value="contextLoads" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntegrationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xxx.kisloty.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kisloty.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="kisloty" />
+      <option name="MAIN_CLASS_NAME" value="kisloty.IntegrationTests" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -332,6 +343,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IntegrationTests" />
         <item itemvalue="JUnit.IntegrationTests.Assert blog page title, content and status code" />
         <item itemvalue="JUnit.BlogApplicationTests.contextLoads" />
         <item itemvalue="Kotlin.kisloty.BlogApplicationKt" />
@@ -354,6 +366,9 @@
   <component name="TestHistory">
     <history-entry file="BlogApplicationTests_contextLoads - 2019.09.17 at 14h 21m 37s.xml">
       <configuration name="BlogApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntegrationTests_Assert_blog_page_title,_content_and_status_code - 2019.09.17 at 14h 28m 07s.xml">
+      <configuration name="IntegrationTests.Assert blog page title, content and status code" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -441,16 +456,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/kisloty/BlogApplication.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <element signature="e#17#170#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -467,6 +472,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/kisloty/HtmlController.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
@@ -474,13 +486,6 @@
           <folding>
             <element signature="e#17#193#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -494,12 +499,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/kisloty/BlogApplication.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <element signature="e#17#209#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/kotlin/kisloty/IntegrationTests.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="46" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="46" />
+        <state relative-caret-position="380">
+          <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
           <folding>
-            <element signature="e#17#237#0" expanded="true" />
+            <element signature="e#17#330#0" expanded="true" />
           </folding>
         </state>
       </provider>
